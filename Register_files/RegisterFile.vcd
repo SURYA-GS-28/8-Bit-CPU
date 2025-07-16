@@ -1,0 +1,103 @@
+$date
+	Thu Jul 03 19:40:16 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module RegisterFile_tb $end
+$var wire 8 ! rd_data1 [7:0] $end
+$var wire 8 " rd_data2 [7:0] $end
+$var reg 1 # clk $end
+$var reg 3 $ rd_addr1 [2:0] $end
+$var reg 3 % rd_addr2 [2:0] $end
+$var reg 3 & wr_addr [2:0] $end
+$var reg 8 ' wr_data [7:0] $end
+$var reg 1 ( write_en $end
+$scope module uut $end
+$var wire 1 ) clk $end
+$var wire 3 * rd_addr1 [2:0] $end
+$var wire 3 + rd_addr2 [2:0] $end
+$var wire 8 , rd_data1 [7:0] $end
+$var wire 8 - rd_data2 [7:0] $end
+$var wire 3 . wr_addr [2:0] $end
+$var wire 8 / wr_data [7:0] $end
+$var wire 1 0 write_en $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+00
+b0 /
+b0 .
+bx -
+bx ,
+b0 +
+b0 *
+0)
+0(
+b0 '
+b0 &
+b0 %
+b0 $
+0#
+bx "
+bx !
+$end
+#5000
+1#
+1)
+#10000
+0#
+0)
+b101010 '
+b101010 /
+b10 &
+b10 .
+1(
+10
+#15000
+1#
+1)
+#20000
+0#
+0)
+b1100100 '
+b1100100 /
+b100 &
+b100 .
+#25000
+1#
+1)
+#30000
+0#
+0)
+b100 %
+b100 +
+b1100100 "
+b1100100 -
+b10 $
+b10 *
+b101010 !
+b101010 ,
+0(
+00
+#35000
+1#
+1)
+#40000
+0#
+0)
+b1 %
+b1 +
+bx "
+bx -
+#45000
+1#
+1)
+#50000
+0#
+0)
